@@ -1,3 +1,21 @@
+macro_vspaste: macro_vspaste{
+compatible = "zmk,behavior-macro";
+label = "macro_vspaste";
+#binding-cells = <0>;
+bindings = <&kp LEFT_SHIFT>, <&kp INSERT>;
+};
+macro_vscopy: macro_vscopy{
+compatible = "zmk,behavior-macro";
+label = "macro_vscopy";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp INSERT>;
+};
+macro_refactor: macro_refactor{
+compatible = "zmk,behavior-macro";
+label = "macro_refactor";
+#binding-cells = <0>;
+bindings = <&kp LEFT_SHIFT>, <&kp F6>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
